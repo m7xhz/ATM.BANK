@@ -1,8 +1,7 @@
 #include <stdio.h>
-#include <math.h>
 #include <dos.h>
 
-int main(void)
+int main()
 {
   int power;
   printf("   Welcome to Al-Aman Bank!\n\n");
@@ -255,4 +254,5 @@ int main(void)
   {
     printf("Operation canceled successfully\n");
   }
+  return 0;
 }
